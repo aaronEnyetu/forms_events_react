@@ -16,7 +16,7 @@ class SearchInput extends React.Component {
     
     onFormSubmit = (e) => {
         e.preventDefault()
-        this.props.onSearchSubmit(this.state.entry)
+       this.props.onSearchSubmit(this.state.entry)
     }
 
 
@@ -36,7 +36,7 @@ class SearchInput extends React.Component {
                         </div>
 
                     </div>
-                    <input type="text" />
+                  
                     </form>
             </div>
         )
